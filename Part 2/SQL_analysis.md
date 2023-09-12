@@ -104,6 +104,24 @@ WHERE business_name LIKE '%pizza%';
 You can further filter it based on names like Pizza pizza, dominoes etc. Overall 16 times in the 1.8 years. Quite healthy ? One can argue though. 
 
 
+## Probably a good idea have cateogories to tag each business name into one. Maybe will work on it a later stage. Could be naive method of maintaining and list of use a classifying model. However for further analysis let's move ahead 
+
+3. Any particular store number I like ?
+
+```
+SELECT business_name,store_number, COUNT(store_number) AS count
+FROM credit_data
+WHERE store_number <> ''
+GROUP BY store_number,business_name
+ORDER BY count DESC;
+```
+![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/31946b00-598e-4e38-8370-d7ca54445122)
+
+Thoughts- The rogers should technically be a account number with is long however due to nature of my earlier cleaning this got captured as store number. 
+
+
+
+
 
 
 
