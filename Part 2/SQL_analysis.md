@@ -117,11 +117,22 @@ ORDER BY count DESC;
 ```
 ![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/31946b00-598e-4e38-8370-d7ca54445122)
 
-Thoughts- The rogers should technically be a account number which is long however due to nature of my earlier cleaning this got captured as store number. 
+Thoughts- The rogers should technically be a account number which is >4 digits long however due to nature of my earlier cleaning this got captured as store number. 
 
 Since tim hortons is the second most purchase let's analyze more on the store numebr of that by modifying the above query 
 
 ![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/248058db-0d78-4c3c-add8-64edd5de3f22)
+
+Another example for not so frequent visits is dollarama.
+
+![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/8b8fd906-a54e-4e88-b72c-5e9f615fa06d)
+
+Thoughts- Good to have area/pincode mapped for each store number to analytics based on locations.
+
+
+Final thoughts :- Mostly my credit card expenses are one sided. Grocieries from frescho, snacks during my break from Rexall and coffee addict from Tim hortons. This would be entirely different from someone who shops frequently, goes to movies etc. 
+
+Let me know what other specific queries you want to see from my spend. :) 
 
 
 
