@@ -119,6 +119,10 @@ ORDER BY count DESC;
 
 Thoughts- The rogers should technically be a account number which is long however due to nature of my earlier cleaning this got captured as store number. 
 
+Since tim hortons is the second most purchase let's analyze more on the store numebr of that by modifying the above query 
+
+![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/248058db-0d78-4c3c-add8-64edd5de3f22)
+
 
 
 
