@@ -117,7 +117,7 @@ ORDER BY count DESC;
 ```
 ![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/31946b00-598e-4e38-8370-d7ca54445122)
 
-Thoughts- The rogers should technically be a account number with is long however due to nature of my earlier cleaning this got captured as store number. 
+Thoughts- The rogers should technically be a account number which is long however due to nature of my earlier cleaning this got captured as store number. 
 
 
 
