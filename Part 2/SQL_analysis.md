@@ -49,6 +49,8 @@ where payment= (SELECT MAX(payment) FROM cte1)
 ```
 ![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/8183db57-1eaf-4a9c-b51f-209510e0bb1e)
 
+Holiday season :) 
+
 4. When was it lowest ?
 
 ```
@@ -59,7 +61,8 @@ select * from cte1
 where payment= (SELECT min(payment) FROM cte1)
 ```
 ![image](https://github.com/praveen555/Credit-Card-Analysis/assets/23379996/654c429f-7222-4f7f-866d-8175653f603b)
-
+ 
+ that is my second month in canada
 5. Count the distinct number of business_name, store number, province and location
 ```
 select count(distinct(business_name)) as name_count,
