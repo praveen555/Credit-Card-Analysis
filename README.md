@@ -16,12 +16,12 @@
 
 ``` Part 2 ```
 
-<li> The second part deals with creating visualizations and answering few questions about money</li>
+<li> The second part deals with  and answering few questions about money habits and doing visualizations </li>
+
 
 ``` Part 3 ```
 
-<li> Attempt to forecast our monthly spendings </li>
-
+Predict our monhtly spendings right from simple moving average to regression models. Challenge you only have 18 months of data. 
 
 
 ## If you have any feedback please do drop a mail :)
